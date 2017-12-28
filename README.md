@@ -4,9 +4,9 @@ Explain the purpose and objective of each section in this area.
 Break labs into groups of related activities and steps.
 
 Examples: 
-* Lab 1.1 – Create Tables,
-* Lab 2.1 – Create Access Request Fields
-* Lab 2.2 – Create Entitlement Fields
+* Lab 1 – Create Tables,
+* Lab 2 – Create Access Request Fields
+* Lab 3 – Create Entitlement Fields
 
 Use Heading 1/H1 _only_ for lab titles.  All content under H1 will render as a single page when digital guidebooks are published.
 
@@ -34,6 +34,17 @@ While Markdown supports nesting ordered and un-ordered lists, please avoid using
 
 1. And markdown will pick up numbering where you left off.
 
+# Images
+## General
 
+
+
+## Using Paste Image in Visual Studio Code
+
+Link to howto documentation here:
+
+# Help!
+
+email alias
 
 
