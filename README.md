@@ -45,6 +45,6 @@ Link to howto documentation here:
 
 # Help!
 
-email alias
+Office Hours
 
 
