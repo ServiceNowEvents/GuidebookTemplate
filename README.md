@@ -1,17 +1,17 @@
 # Guidebook Formatting Basics
-## Lab Goal
+## Goal
 Explain the purpose and objective of each section in this area.
 Break labs into groups of related activities and steps.
 
 Examples: 
-* Lab 1 – Create Tables,
-* Lab 2 – Create Access Request Fields
-* Lab 3 – Create Entitlement Fields
+* Create Tables
+* Create Access Request Fields
+* Create Entitlement Fields
 
-Use Heading 1/H1 _only_ for lab titles.  All content under H1 will render as a single page when digital guidebooks are published.
+Use Heading 1/H1 _only_ for section titles.  All content under H1 will render as a single page when digital guidebooks are published.
 
-## Lab Sections
-The Heading 2/H2 marker will be used to generate the navigation/table of contents within each lab module.
+## Sections
+The Heading 2/H2 marker will be used to generate the navigation/table of contents within each section.
 
 # Markdown Tips & Tricks
 ## General Formatting Guide
@@ -37,14 +37,19 @@ While Markdown supports nesting ordered and un-ordered lists, please avoid using
 # Images
 ## General
 
+This is the general form of an image tag in Markdown with alt text in [] and the URL to the image.  The URL can be absolute or relative, but we recommend using relative images for the guidebook (as they may be re-used for other events over the course of the year).
 
+![Absolute](https://www.servicenow.com/etc/designs/servicenow/static/img/anml/logo-rev.png)
+
+![Relative](logo-rev.png)
 
 ## Using Paste Image in Visual Studio Code
 
-Link to howto documentation here:
+Paste Image is a helpful extension for those of you using VSCode as your editor.  If you are a ServiceNow employee and you installed VSCode from Self Service, the extension will already be installed.  Documentation for installation & usage can be found [here](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 
 # Help!
 
-Office Hours once again
+## Office Hours
+Jason, Dave & Josh will be holding office hours to answer any questions you may have about Markdown, VSCode or other technical issues you may encounter while authoring your guidebooks.
 
 
