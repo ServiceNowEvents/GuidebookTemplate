@@ -50,6 +50,7 @@ Paste Image is a helpful extension for those of you using VSCode as your editor.
 # Help!
 
 ## Office Hours
-Jason, Dave & Josh will be holding office hours to answer any questions you may have about Markdown, VSCode or other technical issues you may encounter while authoring your guidebooks.
+Jason & Dave will be holding office hours to answer any questions you may have about Markdown, VSCode or other technical issues you may encounter while authoring your guidebooks.
 
+Dave: Fridays at 12 PM EST / 9 AM PST - https://servicenow-cmr.webex.com/meet/Dave.Slusher
 
