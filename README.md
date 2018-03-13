@@ -47,13 +47,3 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
 Paste Image is a helpful extension for those of you using VSCode as your editor.  If you are a ServiceNow employee and you installed VSCode from Self Service, the extension will already be installed.  Documentation for installation & usage can be found [here](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 
-# Help!
-
-## Office Hours
-Jason & Dave will be holding office hours to answer any questions you may have about Markdown, VSCode or other technical issues you may encounter while authoring your guidebooks.
-
-Dave: Fridays at 12 PM EST / 9 AM PST - https://servicenow-cmr.webex.com/meet/Dave.Slusher
-
-## Troubleshooting Wiki
-
-We are trying to keep common issues documented on the [VS Code Setup Wiki](https://github.com/ServiceNowEvents/VSCode-Setup-Guide/wiki) so try there if you have issues you cannot resolve.
