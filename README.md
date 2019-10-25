@@ -1,4 +1,4 @@
-# Stuff to Know to Creator Knowledge/CreatorCon Guidebooks
+# Stuff to Know to Create Knowledge/CreatorCon Guidebooks
 
 ## Goal
 
