@@ -262,6 +262,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         var id = current.caller_id.sys_id;
         ```
+        
         **YES**:
         ```javascript
         var id = current.getValue('caller_id');
@@ -273,6 +274,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         var location = userGr.location;
         ```
+
        **YES**:
         ```javascript
         var location = userGr.getValue('location');
@@ -284,6 +286,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         var locationID = current.caller_id.location;
         ```
+
        **YES**:
         ```javascript
         var locationID = current.caller_id.location.toString();
@@ -295,6 +298,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         incGr.state = 5;
         ```
+
        **YES**:
         ```javascript
         incGr.setValue('state', 5);
@@ -306,6 +310,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         current.assignment_group = '3176fe10db4e1340cbf6d5b0cf9619cd';
         ```
+
        **YES**: Set a system property like:
 
        | Field | Value |
