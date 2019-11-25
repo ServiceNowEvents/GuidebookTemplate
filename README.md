@@ -11,7 +11,8 @@ We recommend using [Microsoft Visual Studio Code](https://code.visualstudio.com/
 Beyond standard Markdown, we have a few conventions you need to follow for your guidebook to render properly.
 
 Example of finished lab guide on developer.servicenow.com:
-![](images/2019-10-09-10-45-06.png)
+
+![](2019-11-25-09-29-40.png)
 
 ## Revision history
 
@@ -72,18 +73,22 @@ Always follow your H1 lab title immediately with an H2 section title.  This is a
 Use Heading 1/H1 _only_ for section titles.  All content under H1 will render as a single page when digital guidebooks are published.
 
 Example:
+
 ![](images/2019-10-09-11-47-52.png)
+
 renders this index:
+
 ![](images/2019-10-09-11-48-27.png)
 
 and each heading 1 renders a section this:
+
 ![](images/2019-10-09-11-49-21.png)
 
 ## Sections
 
 Within each Heading 1/H1 section of your lab guide, use H2 to separate the different topics or exercises.
 
-    ##Create User Accounts
+    ## Create User Accounts
 
     In this section you will create users for the upcoming exercises.
 
@@ -190,7 +195,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     Using a tool like SnagIt, you can capture motion and create animations that demonstrate short snippets that maybe difficult to convey with a static image.
 
-    ![](drag_and_drop_example.gif)
+    ![](images/drag_and_drop_example.gif)
 
 # Writing Style
 
@@ -263,6 +268,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```
 
     * Use GlideRecord getValue() instead of using dotted-notation. Using dotted-notation can return incorrect values as the dotted field is an object (making work in Service Portal frustrating) and GlideRecord is a pointer (making values in loops troublesome). getValue() also allows you to use variables for field names.
+
        **NO**:
         ```javascript
         var location = userGr.location;
@@ -272,7 +278,8 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         var location = userGr.getValue('location');
         ```
 
-    * When you need to dot-walk to a reference value, use toString(). Don not use toString() in place of getValue() in the previous example.
+    * When you need to dot-walk to a reference value, use toString(). Do not use toString() in place of getValue() in the previous example.
+
        **NO**:
         ```javascript
         var locationID = current.caller_id.location;
@@ -283,6 +290,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```
 
     * Use setValue() instead of dotted notation when setting a field value.
+
         **NO**:
         ```javascript
         incGr.state = 5;
@@ -293,11 +301,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```
 
     * Avoid hard coding sys_ids. Use a property value, or use the setDisplayValue() method (or both) where you can. sys_ids and other hard coded strings are difficult to read and maintain.
+
        **NO**:
         ```javascript
         current.assignment_group = '3176fe10db4e1340cbf6d5b0cf9619cd';
         ```
        **YES**: Set a system property like:
+
        | Field | Value |
        |-------|-------|
        | Name | my_app.default.assignment_group | 
@@ -308,6 +318,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```
 
     * Use GlideRecord setLimit(1) when you only need one record to check if a record exists. This can greatly speed up queuries.
+
        **NO**:
         ```javascript
         var incGr = new GlideRecord('incident');
@@ -319,6 +330,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
             return incGr;
         }
         ```
+
        **YES**:
         ```javascript
          var incGr = new GlideRecord('incident');
