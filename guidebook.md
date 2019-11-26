@@ -12,7 +12,17 @@ Beyond standard Markdown, we have a few conventions you need to follow for your 
 
 Example of finished lab guide on developer.servicenow.com:
 
-![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/blob/master/images/2019-11-25-09-29-40.png)
+![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-25-09-29-40.png)
+
+<!--
+    1. Create your lab guide starting here.
+
+    2. Use the instructions below as a template
+       to format your guidebook.
+
+    3. When you are done writing your guidebook,
+       remove the template instructions.     
+-->
 
 # File Directory Structure
 
@@ -22,7 +32,7 @@ Example of finished lab guide on developer.servicenow.com:
 
 1. Locate the **Clone or download** (green) dropdown in the GitHub repository created for you and copy the URL.
 
-    ![](images/2019-10-10-09-56-55.png)
+    ![GitHub clone](images/2019-10-10-09-56-55.png)
 
 1. Open a command or terminal window on your local machine and clone the repistory with a command similar to this:
 
@@ -32,42 +42,57 @@ Example of finished lab guide on developer.servicenow.com:
 
 ## Files and folders
 
-![](images/2019-10-10-10-24-28.png)
-
 1. Your workshop/lab guide must be named **guidebook.md**.
 
 1. Place images in a folder named **images** (all lower case) and reference them with a relative pathname in your Markdown reference.
 
         ![alt-text](images/2019-10-10-11-47.png)
 
-    > Note that this document makes use of full URLs to the images because they do not get copied with the template. As a general practice, use relative URLs in your guidebook.
+    > Note that this document makes use of absolute URLs to the images because they do not get copied with the template. As a general practice, use relative URLs in your guidebook (see images below).
 
 1. Create an optional **files** folder for any files students need to download for the course, such as images, JavaScript, or csv files to import. The *files* directory name is lowercase.
 
         Download the [Sample data](files/sample_data.xlsx)
 
-1. Create an **other** folder for any additional files such as PowerPoints used to create complex diagrams, or presenter notes. These are not generally linked from the lab guide nor available to the students. 
+1. Create an **other** folder for any additional files such as PowerPoints used to create complex diagrams, or presenter notes. These are not generally linked from the lab guide nor available to the students.
+
+![Sample files and folders](images/2019-10-10-10-24-28.png)
 
 # Headings/Sections
 
-You can use H1 #, H2 ##, or H3 ### headings. No other headings are allowed.
+## Available headings
+
+You can use the following headings in your guidebook.
+
+| Markdown tag | Heading level |
+|----|----|
+| # | Heading 1 |
+| ## | Heading 2 |
+| ### | Heading 3 |
+
+> **No other headings are allowed.**
 
 ## H1 & H2 relationship
+
 Always follow your H1 lab title immediately with an H2 section title.  This is a convention allows the import process automatically generate the table of contents and navigation (see the example figure at the top).
 
 Use Heading 1/H1 _only_ for section titles.  All content under H1 will render as a single page when digital guidebooks are published.
 
-Example:
+Example (partial):
 
-![](images/2019-10-09-11-47-52.png)
+    # Introduction
+
+    ## Goal
+
+    Convert an existing expense report process from spreadsheets to a bespoke application in ServiceNow. You'll leave this lab all without writing a single piece of code!
 
 renders this index:
 
-![](images/2019-10-09-11-48-27.png)
+![](images/2019-11-26-14-00-30.png)
 
 and each heading 1 renders a section this:
 
-![](images/2019-10-09-11-49-21.png)
+ ![](images/2019-11-26-14-01-46.png)
 
 ## Sections
 
@@ -80,6 +105,18 @@ Within each Heading 1/H1 section of your lab guide, use H2 to separate the diffe
     1. Navigate to **User Administration > Users**.
 
     1. Click **New** at the top of the list.
+
+## Allowing Attendees to Catch Up
+
+If your lab/workshop has exercises that depend upon each other, use ServiceNow's source control integration in Studio to allow the attendee to catch up rather than hitting a dead-end.
+
+1. As you build your lab exercises (and guidebook), create a branch in source control as you complete each exercise. For example, create a branch "Exercise 1", with the completed first exercise. When an attendee switches to that branch, they can begin the second exercise with the first one completely done.
+
+    > **Important!** Don't forget demo data!
+
+1. Include the GitHub Companion update set in your CloudLabs ICE Package.
+
+1. Provide instructions at the end of each exercise to allow any attendees who did not successfully complete the lab the ability to use GitHub companion to switch branches and continue learning.
 
 # Lists
 
@@ -99,22 +136,7 @@ Within each Heading 1/H1 section of your lab guide, use H2 to separate the diffe
 
 * Indent supporting images and text to allow numbered lists to continue
 
-
 # Images
-
-## Helpful tools
-
-### SnagIt
-
-We recommend using a tool like SnagIt to easily capture and annotate your images. This is a licensed product. ServiceNow employees can use a Surf request to get a license.
-
-* To ensure images appear at the appropriate size, in Snagit preferences, set the option to **Scale down retina images when sharing**.
-
-![](images/2019-10-10-10-37-06.png)
-
-### VS Code Paste Image Extension
-
-Paste Image is a helpful extension for those of you using VS Code as your editor.  If you are a ServiceNow employee and you installed VS Code from Self Service, the extension will already be installed.  See the [documentation](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) for information on installation & usage. 
 
 ## General Image Information
 
@@ -132,7 +154,9 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
 * All images MUST have alternate text defined for accessibility compliance.  This is the part of the image markdown in the square brackets.  This text should describe the image in a way that allows a screen reader to provide context to someone who cannot see the image.
 	
-* DO NOT use a screenshot as a replacement for text as this is not usable for people with accessibility requirements.  For example, do not say “configure the record as shown <insert screenshot>”.  You can have a screenshot showing the configured record but you must also have text outside of the screenshot to explain what to do.
+* DO NOT use a screenshot as a replacement for text as this is not usable for people with accessibility requirements.
+
+    For example, do not say “configure the record as shown \<insert screenshot\>”.  You can have a screenshot showing the configured record but you must also have text outside of the screenshot to explain what to do.
 
 * Screenshot images should have a border applied in :  1 pt, dark gray (hex #424242, dec 66,66,66) (This should be .75 px, but Snagit only supports integers and points, not pixels).
 
@@ -188,22 +212,9 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
 * Escape special characters in Markdown. This includes \(\)\[\]\{\}\<\>.
 
-        * Select the User \[sys_user\] table.
-
-    Displays as:
-    * Select the *User \[sys_user\]* table.
-
 * Identify questions and notes with the Markdown prefix **>**
 
-        > Note: If your get a 403 error, check the headers
-
-    Displays as:
-
     > Note: If you get a 403 error, check your headers.
-
-        > Question: Did the list show 5 records?
-
-    Displays as:
 
     > Question: Did the list show 5 records?
 
@@ -216,14 +227,6 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     Example:
 
     1. Fill in the New account form with the data from this table:
-
-            | Field | Value |
-            |-------|-------|
-            | Name | Acme Corp |
-            | Location | 333 Cliffside Rd, Tucson AZ |
-            | Contact name | Wile E. Coyote |
-
-        displays as:
 
         | Field | Value |
         |-------|-------|
@@ -372,9 +375,9 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     * Example: *Scope*: **(This value is automatically populated)**
 
-* Use (path ➔ item) for data pills.
+* Use (path \> item) for data pills.
 
-    * Example: *Record*: **(Trigger ➔ NeedIt Record)**
+    * Example: *Record*: **(Trigger \> NeedIt Record)**
 
 * Use \[ \] to separate components of multi-part fields and conditions.
 
@@ -408,12 +411,6 @@ For example, when adding application files to Studio, always use the same verbia
 * Surround code in triple-backtick marks (\`\`\`)
 
     Surrounding your code in \`\`\` marks formats the code to be easily copied and pasted. Using the language inside the starting ticks makes enables keyword highlighting as well.
-
-    Example:
-
-    ![](images/2019-10-09-11-18-44.png)
-
-    displays like this:
 
     ```javascript
     var incGr = new GlideRecord('incident');
