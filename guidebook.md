@@ -12,7 +12,7 @@ Beyond standard Markdown, we have a few conventions you need to follow for your 
 
 Example of finished lab guide on developer.servicenow.com:
 
-![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/images/2019-11-25-09-29-40.png)
+![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/blob/master/images/2019-11-25-09-29-40.png)
 
 # File Directory Structure
 
