@@ -32,7 +32,7 @@ Example of finished lab guide on developer.servicenow.com:
 
 1. Locate the **Clone or download** (green) dropdown in the GitHub repository created for you and copy the URL.
 
-    ![GitHub clone](images/2019-10-10-09-56-55.png)
+    ![GitHub clone](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-09-56-55.png)
 
 1. Open a command or terminal window on your local machine and clone the repistory with a command similar to this:
 
@@ -46,7 +46,7 @@ Example of finished lab guide on developer.servicenow.com:
 
 1. Place images in a folder named **images** (all lower case) and reference them with a relative pathname in your Markdown reference.
 
-        ![alt-text](images/2019-10-10-11-47.png)
+        ![alt-text](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-11-47.png)
 
     > Note that this document makes use of absolute URLs to the images because they do not get copied with the template. As a general practice, use relative URLs in your guidebook (see images below).
 
@@ -56,7 +56,7 @@ Example of finished lab guide on developer.servicenow.com:
 
 1. Create an **other** folder for any additional files such as PowerPoints used to create complex diagrams, or presenter notes. These are not generally linked from the lab guide nor available to the students.
 
-![Sample files and folders](images/2019-10-10-10-24-28.png)
+![Sample files and folders](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-10-24-28.png)
 
 # Headings/Sections
 
@@ -88,11 +88,11 @@ Example (partial):
 
 renders this index:
 
-![](images/2019-11-26-14-00-30.png)
+![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-00-30.png)
 
 and each heading 1 renders a section this:
 
- ![](images/2019-11-26-14-01-46.png)
+ ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-01-46.png)
 
 ## Sections
 
@@ -144,11 +144,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     ![Absolute](https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-header-logo.svg)
 
-![Absolute](https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-header-logo.svg)
-
     ![Relative](images/2018-now-logo.png)
-
-![Relative](images/2018-now-logo.png)
 
 * Inline images must be smaller than 100 pixels wide.
 
@@ -160,7 +156,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
 * Screenshot images should have a border applied in :  1 pt, dark gray (hex #424242, dec 66,66,66) (This should be .75 px, but Snagit only supports integers and points, not pixels).
 
-    ![](images/2019-10-10-10-46-35.png)
+    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-10-46-35.png)
 
 * Avoid entire screenshots when not needed
 
@@ -168,13 +164,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     **Bad**:
 
-    ![](images/2019-10-11-08-40-50.png)
+    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-40-50.png)
 
     Providing instructions to click *Create Application File* are not much help. Instead, take a screenshot of the area of focus *in context* (with some additional elements in the shot or partially in the shot) to help the viewer locate where you want them to focus.
 
     **Good**:
 
-    ![](images/2019-10-11-08-43-59.png)
+    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-43-59.png)
 
 * If you find you need a full screen shot...
 
@@ -188,7 +184,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
         If you need to draw attention to a screen element in a larger context, use an arrow and label to clearly indicate where the reader should focus.
 
-        ![](images/2019-10-11-08-53-17.png)
+        ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-53-17.png)
 
 * Do not exceed image width of 1024px
 
@@ -198,13 +194,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     1. In the left column, click **Data Model** (1), then in the middle, click **Table** (2), and finally click **Create** in the lower right (3).
 
-    ![](images/2019-10-11-08-57-24.png)
+    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-57-24.png)
 
 * Consider using animated GIFs to demonstrate concepts like drag and drop
 
     Using a tool like SnagIt, you can capture motion and create animations that demonstrate short snippets that maybe difficult to convey with a static image.
 
-    ![](images/drag_and_drop_example.gif)
+    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/drag_and_drop_example.gif)
 
 # Writing Style
 
