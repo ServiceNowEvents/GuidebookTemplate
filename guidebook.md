@@ -1,19 +1,12 @@
-# Guidebook Template
-
+# Introduction
 ## Goal
 
-<!-- Replace this section with the goals of your lab/workship -->
+The goal of this lab is the reinforce the Best Practices and Key Capabilities from the presentation today. In it you will leverage key ServiceNow capabilities to design a portal that is contextual to the user; with relevant content and catalog items, visually different; with the application of a simple or complex theme change, and representative of a portal that helps a customer's journey to self-service
 
-This document provides you with technical information and best practices to produce a Knowledge Lab or CreatorCon workshop guidebook consistent with current standards. The standards documented here must be applied to all guidebooks created or updated from the time you receive this template. In other words, you are not required to apply these to previous guidebooks unless that content is being updated for an upcoming event.
-
-ServiceNow uses GitHub to store/version guidebooks and render them in HTML. If you are unfamiliar with the basics of Markdown, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for an introduction to standard formatting.
-
-Beyond standard Markdown, we have a few conventions you need to follow for your guidebook to render properly. This document covers the following topics: file directory structure, headings/sections, lists, images, writing style, and grammar & clarity.
-
-Example of finished lab guide on developer.servicenow.com:
-
-![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-25-09-29-40.png)
-
+### Getting Started - Log on to Your Training Instance
+1. Navigate to the unique instance URL provided to you.
+1. Log on with the provided credentials
+1. Change your password to something memorable just in case you get logged out of your instance.
 <!--
     1. Create your lab guide starting here.
 
@@ -24,7 +17,28 @@ Example of finished lab guide on developer.servicenow.com:
        remove the template instructions.     
 -->
 
-# File Directory Structure
+# Understanding the Current State
+## Goal
+
+In this lab we are going to get a better understanding of the current state of the portal. To do this we want to look at capabilities the platform provides but also get feedback from users
+
+## Usage Overview
+First we'll look at **Usage Overview* to gather quantitative data about user's behaviors on the portal. Here you can see the most popular *search terms*, *pages, *knowledge article*, and more...
+
+1. Log in to your instance
+1. In the App Navigator locate Service Portal  Usage Overview
+1. Review the Service Portal Search Terms
+
+### Think About
+	What are the most popular search terms?
+
+
+	Are people typing in terms that don’t correlate to data in your catalog
+	
+    
+    Are there popular search terms to just don’t make sense?
+
+
 
 ## Creating your local repository
 
