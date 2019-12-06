@@ -17,7 +17,7 @@ The goal of this lab is the reinforce the Best Practices and Key Capabilities fr
        remove the template instructions.     
 -->
 
-# Understanding the Current State
+# Lab 1 - Understanding the Current State
 ## Goal
 
 In this lab we are going to get a better understanding of the current state of the portal. To do this we want to look at capabilities the platform provides but also get feedback from users
