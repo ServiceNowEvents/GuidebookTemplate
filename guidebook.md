@@ -53,6 +53,8 @@ Example of finished lab guide on developer.servicenow.com:
 1. Create an optional **files** folder for any files students need to download for the course, such as images, JavaScript, or csv files to import. The *files* directory name is lowercase.
 
         Download the [Sample data](files/sample_data.xlsx)
+	
+    > Note that file names with spaces will break the publishing process.  Replace spaces with underscores for file and image links.
 
 1. Create an **other** folder for any additional files such as PowerPoints used to create complex diagrams, or presenter notes. These are not generally linked from the lab guide nor available to the students.
 
