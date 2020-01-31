@@ -6,7 +6,7 @@
 
 This document provides you with technical information and best practices to produce a Knowledge Lab or CreatorCon workshop guidebook consistent with current standards. The standards documented here must be applied to all guidebooks created or updated from the time you receive this template. In other words, you are not required to apply these to previous guidebooks unless that content is being updated for an upcoming event.
 
-ServiceNow uses GitHub to store/version guidebooks and render them in HTML. If you are unfamiliar with the basics of Markdown, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for an introduction to standard formatting.
+ServiceNow uses GitHub to store/version guidebooks and render them in HTML. For instructions on setting up VS Code and git to author your guidebook, see our [Setup Guide](https://github.com/ServiceNowEvents/Guidebook-Tools-Setup-Guide/blob/master/guidebook.md).  If you are unfamiliar with the basics of Markdown, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for an introduction to standard formatting.
 
 Beyond standard Markdown, we have a few conventions you need to follow for your guidebook to render properly. This document covers the following topics: file directory structure, headings/sections, lists, images, writing style, and grammar & clarity.
 
