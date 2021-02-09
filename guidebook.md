@@ -2,7 +2,7 @@
 
 ## Goal
 
-<!-- Replace this section with the goals of your lab/workship -->
+<!-- Replace this section with the goals of your lab/workshop -->
 
 This document provides you with technical information and best practices to produce a Knowledge Lab or CreatorCon workshop guidebook consistent with current standards. The standards documented here must be applied to all guidebooks created or updated from the time you receive this template. In other words, you are not required to apply these to previous guidebooks unless that content is being updated for an upcoming event.
 
