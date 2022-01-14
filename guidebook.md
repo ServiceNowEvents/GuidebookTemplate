@@ -53,7 +53,7 @@ Example of finished lab guide on developer.servicenow.com:
 1. Create an optional **files** folder for any files students need to download for the course, such as images, JavaScript, or csv files to import. The *files* directory name is lowercase.
 
         Download the [Sample data](files/sample_data.xlsx)
-	
+
     > Note that file names with spaces will break the publishing process.  Replace spaces with underscores for file and image links.
 
 1. Create an **other** folder for any additional files such as PowerPoints used to create complex diagrams, or presenter notes. These are not generally linked from the lab guide nor available to the students.
@@ -90,11 +90,11 @@ Example (partial):
 
 renders this index:
 
-![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-00-30.png)
+![Sample live index headings](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-00-30.png)
 
 and each heading 1 renders a section this:
 
- ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-01-46.png)
+ ![Sample document headings](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-26-14-01-46.png)
 
 ## Sections
 
@@ -151,14 +151,14 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 * Inline images must be smaller than 100 pixels wide.
 
 * All images MUST have alternate text defined for accessibility compliance.  This is the part of the image markdown in the square brackets.  This text should describe the image in a way that allows a screen reader to provide context to someone who cannot see the image.
-	
+
 * DO NOT use a screenshot as a replacement for text as this is not usable for people with accessibility requirements.
 
     For example, do not say “configure the record as shown \<insert screenshot\>”.  You can have a screenshot showing the configured record but you must also have text outside of the screenshot to explain what to do.
 
 * Screenshot images should have a border applied in :  1 pt, dark gray (hex #424242, dec 66,66,66) (This should be .75 px, but Snagit only supports integers and points, not pixels).
 
-    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-10-46-35.png)
+    ![Adding a border](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-10-46-35.png)
 
 * Avoid entire screenshots when not needed
 
@@ -166,13 +166,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     **Bad**:
 
-    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-40-50.png)
+    ![Poor screenshot example](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-40-50.png)
 
     Providing instructions to click *Create Application File* are not much help. Instead, take a screenshot of the area of focus *in context* (with some additional elements in the shot or partially in the shot) to help the viewer locate where you want them to focus.
 
     **Good**:
 
-    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-43-59.png)
+    ![Good screenshot example](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-43-59.png)
 
 * If you find you need a full screen shot...
 
@@ -186,7 +186,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
         If you need to draw attention to a screen element in a larger context, use an arrow and label to clearly indicate where the reader should focus.
 
-        ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-53-17.png)
+        ![Simple annotation](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-53-17.png)
 
 * Do not exceed image width of 1024px
 
@@ -196,13 +196,13 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     1. In the left column, click **Data Model** (1), then in the middle, click **Table** (2), and finally click **Create** in the lower right (3).
 
-    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-57-24.png)
+    ![Multiple step annotation](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-57-24.png)
 
 * Consider using animated GIFs to demonstrate concepts like drag and drop
 
     Using a tool like SnagIt, you can capture motion and create animations that demonstrate short snippets that maybe difficult to convey with a static image.
 
-    ![](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/drag_and_drop_example.gif)
+    ![Animated GIF](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/drag_and_drop_example.gif)
 
 # Writing Style
 
@@ -217,7 +217,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
     > Question: Did the list show 5 records?
 
 * As the learner reads your guidebook, provide them fewer details.
-    
+
     For example, after you have given the six-step instructions to create a user record, you do not provide the same six steps for each additional user record. Simply give instructions such as: *Repeat steps 1-6 to create two additional user accounts for Tom Harrington, and Dory Williams.* Assume the learner is learning! This also makes it easier to maintain the guidebook should any of the details change.
 
 * Use tables when providing repetitive data entry instructions
@@ -235,6 +235,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 * Add a reference section to the docs pages or other helpful material at the end of each lab exercise.
 
     **Reference**:
+
     * [Flow Designer](https://docs.servicenow.com/bundle/newyork-servicenow-platform/page/administer/flow-designer/concept/flow-designer.html)
     * [Community](https://community.servicenow.com)
 
@@ -248,7 +249,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
         ```javascript
         var id = current.caller_id.sys_id;
         ```
-        
+
         **YES**:
         ```javascript
         var id = current.getValue('caller_id');
@@ -334,7 +335,7 @@ This is the general form of an image tag in Markdown with alt text in [] and the
             return incGr;
         }
        ```
-    
+
 ## Emphasis
 
 * Do not use "quotes" for emphasis.
@@ -396,7 +397,7 @@ For example, when adding application files to Studio, always use the same verbia
 
    1. Select **UI Policy** in the middle pane as the file type then click the **Create** button.
 
-1.	Configure the UI Policy:
+1. Configure the UI Policy:
 
     | Field | Value |
     |-------|-------|
