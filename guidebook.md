@@ -458,3 +458,7 @@ For example, when adding application files to Studio, always use the same verbia
 	* **NO**: In the screenshot below...  
 	* **YES**: In the example...
 
+# Helpful resources
+
+* [Podcast: Break Point - Effective Presentations with Julian Mills - Part 1 - Preperation](https://omny.fm/shows/break-point/effective-presentations-with-julian-mills-part-1-p)
+* [Podcast: Break Point - Effective Presentations with Julian Mills - Part 2 - Common mistakes](https://omny.fm/shows/break-point/break-point-034)
