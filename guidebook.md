@@ -7,7 +7,7 @@
 This document provides you with technical information and best practices to produce a Knowledge or CreatorCon lab guidebook consistent with current standards. The standards documented here must be applied to all guidebooks created or updated from the time you receive this template. In other words, you are not required to apply these to previous guidebooks unless that content is being updated for an upcoming event.
 
 Click image below to watch the overview video:
-[![Overview video thumbnail](images/Overview.png)](https://youtu.be/rXX958QvDgw)
+[![Overview video thumbnail](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/Overview.png)](https://youtu.be/rXX958QvDgw)
 
 ServiceNow uses GitHub to store/version guidebooks and render them in HTML. For instructions on setting up VS Code and git to author your guidebook, see our [Setup Guide](https://github.com/ServiceNowEvents/Guidebook-Tools-Setup-Guide/blob/master/guidebook.md).  If you are unfamiliar with the basics of Markdown, see [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for an introduction to standard formatting.
 
@@ -18,10 +18,10 @@ Example of finished lab guide on developer.servicenow.com:
 ![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-25-09-29-40.png)
 
 Click the image below to understand the build process:
-[![Build process video thumbnail](images/Build-Process.png)](https://youtu.be/uTLiXfMsuvk)
+[![Build process video thumbnail](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/Build-Process.png)](https://youtu.be/uTLiXfMsuvk)
 
 Click image below to get the details and best practices to make your lab guide zing:
-[![Content deep dive video thumbnail](images/Content-Deep-Dive.png)](https://youtu.be/2s_e0zvGoM4)
+[![Content deep dive video thumbnail](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/Content-Deep-Dive.png)](https://youtu.be/2s_e0zvGoM4)
 
 <!--
     1. Create your lab guide starting here.
