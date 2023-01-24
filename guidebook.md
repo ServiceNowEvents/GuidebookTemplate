@@ -207,11 +207,6 @@ This is the general form of an image tag in Markdown with alt text in [] and the
 
     ![Multiple step annotation](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-11-08-57-24.png)
 
-* Consider using animated GIFs to demonstrate concepts like drag and drop
-
-    Using a tool like SnagIt, you can capture motion and create animations that demonstrate short snippets that maybe difficult to convey with a static image.
-
-    ![Animated GIF](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/drag_and_drop_example.gif)
 
 # Writing Style
 
