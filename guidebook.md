@@ -421,7 +421,9 @@ For example, when adding application files to Studio, always use the same verbia
     var count = incGr.getRowCount();
     ```
 
-* If your script exceeds more than 20 lines, link to a repository or downloadable text file in the *files* folder.
+* If your script exceeds more than 20 lines, create it as a text file in the *files/* folder of your repo. A .zip of files will be distributed with your guidebook. For example:
+    
+    Copy the contents of the **rest_response_processing.js.txt** into the Script step created in the previous step.
 
 # Grammar and Clarity
 
