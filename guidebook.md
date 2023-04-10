@@ -15,7 +15,7 @@ Beyond standard Markdown, we have a few conventions you need to follow for your 
 
 Example of finished lab guide on developer.servicenow.com:
 
-![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-11-25-09-29-40.png)
+![Demo lab guide](https://github.com/ServiceNowEvents/GuidebookTemplate/blob/master/images/2019-11-25-09-29-40.png)
 
 Click the image below to understand the build process:
 [![Build process video thumbnail](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/Build-Process.png)](https://youtu.be/uTLiXfMsuvk)
@@ -43,9 +43,27 @@ Click image below to get the details and best practices to make your lab guide z
 
     ![GitHub clone](https://github.com/ServiceNowEvents/GuidebookTemplate/raw/master/images/2019-10-10-09-56-55.png)
 
-1. Open a command or terminal window on your local machine and clone the repistory with a command similar to this:
+1. Open a command or terminal window on your local machine.
 
-        git clone (pasted URL)
+1. Change directories to your GitHub folder you created above (see Mac terminal and Windows DOS examples).
+
+    **Windows**
+    ```
+    C:\Users\chuck.tomasi> cd Documents\GitHub
+    C:\Users\chuck.tomasi\Documents\GitHub>
+    ```
+
+    **Mac**
+    ```
+    /users/chuck.tomasi $ cd Documents/GitHub
+    /users/chuck.tomasi/Documents/GitHub $
+    ```
+
+1. Clone the repistory with a command similar to this:
+
+    ```
+    git clone (pasted URL)
+    ```
 
 1. You can now edit the files locally and push them to GitHub as needed.
 
