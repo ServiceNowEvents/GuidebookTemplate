@@ -17,10 +17,10 @@ These elements are: **a QR code for your guidebook on your PPT title slide, and 
 
 &#x20;
 
-1.  &#x20;In your Powerpoint template, go to the ribbon bar > insert tab, and click Get Add-ins.
+1.  &#x20;In your Powerpoint template, go to the **ribbon bar > insert tab, and click Get Add-ins.**
 
     <figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>Image of PowerPoint ribbon with Add-ins</p></figcaption></figure>
-2.  A pop-up window should appear. Search "QR Code" and you should see the appropriate add-in.
+2.  A pop-up window should appear. Search **QR Code** and you should see the appropriate add-in.
 
     <div align="left">
 
@@ -28,7 +28,7 @@ These elements are: **a QR code for your guidebook on your PPT title slide, and 
 
     </div>
 3. Add this to your PowerPoint tools.
-4. On slide three of the official Knowledge 2024 Lab template, use the QR code generator to convert your guidebook url to a QR code.
+4. On slide three of the official **Knowledge 2024 Lab template**, use the **QR code generator** to convert your **guidebook url** to a **QR code**.
 5.  Move the generated code image to the right hand side, example below:
 
     <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Image of PowerPoint title slide</p></figcaption></figure>
