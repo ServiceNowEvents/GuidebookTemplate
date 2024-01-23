@@ -33,5 +33,5 @@ These elements are: **a QR code for your guidebook on your PPT title slide, and 
 
     <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p>Image of PowerPoint title slide</p></figcaption></figure>
 
-**The template is also formated with footers for your lab instance url, which you can add once the instance is spun up for you.**
+The template is also formated with footers for your lab instance url, which you can add once the instance is spun up for you.
 
